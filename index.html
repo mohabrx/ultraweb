@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>متجر الخدمات الإلكترونية</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #f1f1f1;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background: linear-gradient(to left, #6a0dad, #3b0066);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .navbar-brand:hover {
+      color: #ddd;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .service-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      color: #aaa;
+    }
+
+    /* زر واتساب */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 999;
+    }
+
+    /* زر العودة للأعلى */
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 90px;
+      left: 20px;
+      background-color: #6a0dad;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 50%;
+      display: none;
+      z-index: 999;
+    }
+  </style>
+  <!-- Meta SEO -->
+<meta name="description" content="نقدم خدمات إلكترونية مثل تصميم الشعارات، التسويق الرقمي، تطوير المواقع، والمزيد. تواصل معنا الآن للحصول على أفضل العروض.">
+<meta name="keywords" content="تصميم شعارات, تسويق رقمي, تطوير مواقع, خدمات إلكترونية, مواقع عربية">
+<meta name="author" content="خدمات إلكترونية">
+
+</head>
+
+<body>
+
+<!-- قائمة التنقل -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: #2a0055; padding: 15px 0;">
+    <div class="container">
+      <a class="navbar-brand text-purple fw-bold" href="#" style="font-size: 1.6rem;">
+        شركتنا الرقمية
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">عنّا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">حلولنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">ماذا يقول عملاؤنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">تواصل مباشر</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<!-- خدماتنا -->
+<section id="services" style="background: #1a003d; padding: 80px 0;" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center text-purple fw-bold mb-5" style="font-size: 2.8rem; letter-spacing: 1.5px;">
+        خدماتنا الإلكترونية
+      </h2>
+      <p class="text-center text-light mb-5" style="max-width: 700px; margin: 0 auto; font-size: 1.2rem; opacity: 0.85;">
+        نقدم لك مجموعة متكاملة من الخدمات الإلكترونية التي تساعدك على تطوير أعمالك وتحقيق أهدافك بسرعة واحترافية.
+      </p>
+      <div class="row g-4 justify-content-center">
+  
+        <!-- خدمة 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/565/565547.png" alt="تصميم لوجو" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">تصميم لوجو احترافي</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              تصميم شعار يعكس هوية علامتك التجارية بأحدث الأساليب والابتكارات الإبداعية.
+            </p>
+          </div>
+        </div>
+  
+        <!-- خدمة 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="تسويق رقمي" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">التسويق الرقمي</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              استراتيجيات تسويقية متطورة تزيد من وصولك لعملائك وتضاعف مبيعاتك عبر الإنترنت.
+            </p>
+          </div>
+        </div>
+  
+        <!-- خدمة 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/1006/1006544.png" alt="برمجة مواقع" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">برمجة وتطوير مواقع</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              تصميم وتطوير مواقع إلكترونية متجاوبة وسريعة تلبي جميع احتياجات عملك.
+            </p>
+          </div>
+        </div>
+  
+        <!-- خدمة 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/633/633686.png" alt="إدارة حسابات" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">إدارة حسابات التواصل</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              متابعة وتحليل حساباتك لزيادة التفاعل وبناء مجتمع قوي حول علامتك التجارية.
+            </p>
+          </div>
+        </div>
+  
+        <!-- خدمة 5 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/2913/2913469.png" alt="تصميم إعلانات" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">تصميم إعلانات احترافية</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              إعلانات بصرية جذابة تزيد من وصولك وانتشارك في الأسواق الرقمية.
+            </p>
+          </div>
+        </div>
+  
+        <!-- خدمة 6 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-card p-4 rounded shadow-sm h-100 text-center bg-gradient-purple">
+            <div style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(158, 79, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+              <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="استشارات تقنية" style="width: 45px; height: 45px;">
+            </div>
+            <h4 class="mb-3 text-white fw-semibold">استشارات تقنية</h4>
+            <p class="text-light" style="font-size: 1rem;">
+              حلول ذكية واستشارات متخصصة تساعدك في تحسين بنية عملك التقنية.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    .text-purple {
+      color: #9e4fff;
+    }
+    .bg-gradient-purple {
+      background: linear-gradient(135deg, #6a0dad, #3b0066);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .bg-gradient-purple:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 25px rgba(158, 79, 255, 0.7);
+    }
+    .service-card img {
+      filter: drop-shadow(0 0 6px rgba(158, 79, 255, 0.6));
+    }
+  </style>
+  
+<!-- Testimonials -->
+<section id="testimonials" class="py-5" style="background: linear-gradient(135deg, #3b0066, #6a0dad);" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center text-light mb-5 fw-bold" style="letter-spacing: 1.5px; font-size: 2.5rem;">آراء العملاء</h2>
+      <div class="row justify-content-center g-4">
+  
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+          <div class="card bg-transparent border-0 text-light shadow" style="border-radius: 15px; box-shadow: 0 8px 20px rgba(158, 79, 255, 0.6);">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="صورة العميل" class="rounded-circle me-3" width="60" height="60" />
+                <div>
+                  <h5 class="card-title mb-0">أحمد محمد</h5>
+                  <small class="text-purple">الرياض، السعودية</small>
+                </div>
+              </div>
+              <p class="card-text fst-italic" style="font-size: 1.1rem;">
+                "خدمة ممتازة! الموقع سريع، التصميم جذاب، وفريق العمل محترف جدًا. أنصح بالتعامل معهم بشدة."
+              </p>
+              <div class="text-purple" aria-label="تقييم 5 نجوم">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card bg-transparent border-0 text-light shadow" style="border-radius: 15px; box-shadow: 0 8px 20px rgba(158, 79, 255, 0.6);">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="صورة العميل" class="rounded-circle me-3" width="60" height="60" />
+                <div>
+                  <h5 class="card-title mb-0">منى عبد الله</h5>
+                  <small class="text-purple">الدار البيضاء، المغرب</small>
+                </div>
+              </div>
+              <p class="card-text fst-italic" style="font-size: 1.1rem;">
+                "تصميم اللوجو فاق توقعاتي! وفريق الدعم كان متجاوب بشكل رائع. شكراً لكم."
+              </p>
+              <div class="text-purple" aria-label="تقييم 5 نجوم">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card bg-transparent border-0 text-light shadow" style="border-radius: 15px; box-shadow: 0 8px 20px rgba(158, 79, 255, 0.6);">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="صورة العميل" class="rounded-circle me-3" width="60" height="60" />
+                <div>
+                  <h5 class="card-title mb-0">سعيد الحربي</h5>
+                  <small class="text-purple">جدة، السعودية</small>
+                </div>
+              </div>
+              <p class="card-text fst-italic" style="font-size: 1.1rem;">
+                "تجربة تسويقية ناجحة حقًا مع فريق العمل. النتائج كانت مذهلة واحترافية."
+              </p>
+              <div class="text-purple" aria-label="تقييم 5 نجوم">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    .text-purple {
+      color: #9e4fff;
+      font-weight: 700;
+    }
+  </style>
+  
+
+<!-- Contact -->
+<section id="contact" style="background: linear-gradient(135deg, #3b0066, #6a0dad); padding: 80px 0;" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center text-light mb-5 fw-bold" style="letter-spacing: 1.5px; font-size: 2.5rem;">تواصل معنا</h2>
+      <p class="text-center text-light mb-4" style="max-width: 600px; margin: 0 auto; font-size: 1.1rem; opacity: 0.8;">
+        لأي استفسار أو طلب خدمة، نحن هنا لمساعدتك. املأ النموذج وسنعود إليك بأسرع وقت ممكن.
+      </p>
+      <form id="contactForm" class="mx-auto p-4 rounded" style="max-width: 600px; background-color: rgba(255,255,255,0.12); box-shadow: 0 0 20px rgba(106, 13, 173, 0.9);">
+        
+        <div class="mb-3">
+          <label for="name" class="form-label text-light fw-semibold">الاسم الكامل <span style="color:#e74c3c;">*</span></label>
+          <input type="text" id="name" name="name" class="form-control form-control-lg bg-transparent text-white border-0 border-bottom border-3 border-purple" placeholder="أدخل اسمك الكامل" required
+            style="border-color:#9e4fff;">
+        </div>
+        
+        <div class="mb-3">
+          <label for="email" class="form-label text-light fw-semibold">البريد الإلكتروني <span style="color:#e74c3c;">*</span></label>
+          <input type="email" id="email" name="email" class="form-control form-control-lg bg-transparent text-white border-0 border-bottom border-3 border-purple" placeholder="example@domain.com" required
+            style="border-color:#9e4fff;">
+        </div>
+        
+        <div class="mb-3">
+          <label for="phone" class="form-label text-light fw-semibold">رقم الهاتف</label>
+          <input type="tel" id="phone" name="phone" class="form-control form-control-lg bg-transparent text-white border-0 border-bottom border-3 border-purple" placeholder="0501234567"
+            style="border-color:#9e4fff;">
+        </div>
+        
+        <div class="mb-3">
+          <label for="subject" class="form-label text-light fw-semibold">موضوع الرسالة <span style="color:#e74c3c;">*</span></label>
+          <input type="text" id="subject" name="subject" class="form-control form-control-lg bg-transparent text-white border-0 border-bottom border-3 border-purple" placeholder="موضوع رسالتك" required
+            style="border-color:#9e4fff;">
+        </div>
+        
+        <div class="mb-4">
+          <label for="message" class="form-label text-light fw-semibold">الرسالة <span style="color:#e74c3c;">*</span></label>
+          <textarea id="message" name="message" rows="5" class="form-control bg-transparent text-white border-0 border-bottom border-3 border-purple" placeholder="اكتب رسالتك هنا..." required
+            style="border-color:#9e4fff;"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-purple btn-lg w-100 fw-bold" style="box-shadow: 0 4px 15px rgba(158, 79, 255, 0.7); transition: all 0.3s ease;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-send-fill me-2" viewBox="0 0 16 16">
+            <path d="M15.964 0.686a.5.5 0 0 0-.588-.177L.64 7.294a.5.5 0 0 0 0 .912l3.178 1.587 1.588 3.178a.5.5 0 0 0 .912 0l6.785-14.736a.5.5 0 0 0-.14-.55z"/>
+          </svg>
+          إرسال الرسالة
+        </button>
+        
+        <div id="msgSuccess" class="alert alert-success mt-4 d-none text-center fw-semibold" role="alert" style="border-radius: 12px;">
+          شكراً لتواصلك معنا! سنرد عليك قريباً.
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <style>
+    .border-purple {
+      border-color: #9e4fff !important;
+    }
+    .btn-purple {
+      background-color: #9e4fff;
+      color: white;
+    }
+    .btn-purple:hover {
+      background-color: #7c39cc;
+      box-shadow: 0 6px 20px rgba(124, 57, 204, 0.9);
+    }
+  </style>
+  
+  <script>
+    // تأكيد بعد الإرسال
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      this.reset();
+      const msg = document.getElementById('msgSuccess');
+      msg.classList.remove('d-none');
+      setTimeout(() => {
+        msg.classList.add('d-none');
+      }, 5000);
+    });
+  </script>
+  
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 جميع الحقوق محفوظة - متجر الخدمات الإلكترونية
+</footer>
+
+<!-- زر واتساب -->
+<a class="whatsapp-btn" href="https://wa.me/668235653" target="_blank" title="تواصل واتساب">💬</a>
+
+<!-- زر رجوع لأعلى -->
+<button onclick="scrollToTop()" id="scrollTopBtn" title="أعلى">↑</button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  // زر العودة لأعلى
+  const btn = document.getElementById("scrollTopBtn");
+  window.onscroll = function () {
+    btn.style.display = window.scrollY > 300 ? "block" : "none";
+  };
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" onclick="scrollToTop()" style="display:none;position:fixed;bottom:30px;right:30px;z-index:99;background-color:#6f42c1;color:white;border:none;border-radius:50%;width:45px;height:45px;font-size:20px;cursor:pointer;">↑</button>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/966501234567" target="_blank" style="position: fixed; bottom: 90px; right: 30px; background-color: #25d366; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center; font-size: 26px; z-index: 99; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Scroll to Top JS -->
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 100) {
+      scrollTopBtn.style.display = "block";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+</body>
+</html>
